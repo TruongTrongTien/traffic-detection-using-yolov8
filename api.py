@@ -40,5 +40,3 @@ async def detect(file: UploadFile):
         # image_bytes.seek(0)
         # return responses.StreamingResponse(content=io.BytesIO(image_detected.tobytes()), media_type="image/jpeg")
     
-
-
